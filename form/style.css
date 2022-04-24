@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #dcdcdc;
+    background-color: aliceblue;
+}
+
+/*auth*/
+
+.auth {
+    width: 260px;
+    padding: 20px;
+    margin: 20px auto;
+
+
+    background-color: #a9a9a9;
+}
+
+.auth-title {
+    margin: 0 0 15px;
+    font-family: inherit;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.34);
+
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.62);
+    text-align: center;
+}
+
+/*input*/
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 238px;
+
+    padding: 8px 10px;
+    display: block;
+
+    border: 2px solid darkgray;
+
+    font-family: inherit;
+}
+
+.input:focus {
+    outline: 0;
+
+    border-color: burlywood;
+}
+
+/*Select*/
+
+.select {
+    display: block;
+
+    width: 262px;
+    padding: 8px 10px;
+
+background-color: white;
+    color: rgba(24, 24, 24, 0.63);
+    border: 2px solid darkgray;
+    font-family: inherit;
+}
+
+.select:focus {
+    outline: none;
+    border: 2px solid burlywood;
+}
+
+.checkbox {
+    /*display: inline-block;*/
+   color: rgba(24, 24, 24, 0.65);
+    font-style: inherit;
+
+
+}
+
+
+.btn {
+
+    padding: 7px;
+    display: block;
+    width: 260px;
+
+    border: 2px solid darkgrey;
+
+    font-family: inherit;
+    font-size: 14px;
+    color: rgba(24, 24, 24, 0.63);
+    background-color: #ffffff;
+
+}
+
+.btn:focus, btn:hover {
+background-color: #c1c1bb;
+
+    outline: none;
+    border: 2px solid burlywood;
+
+
+}
